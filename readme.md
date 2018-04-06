@@ -39,5 +39,8 @@ where
 - `<id>` or `"static"` to specify a specific instance of the model or a static method.
 - `<method>` name of the method called (also works with remote methods)
 
+## Request Handler
+A specific request handler has been build to process the request and respond to them using loopback: https://github.com/Weaverize/loopback-amqp-backend
+
 # Credit
 Copyright (c) 2018, [Weaverize SAS](http://www.weaverize.com). All rights reserved. Contact: <dev@weaverize.com>.
