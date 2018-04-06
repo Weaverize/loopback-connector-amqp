@@ -12,6 +12,10 @@
     "email": "dev@weaverize.com",
     "url": "http://pro.weaverize.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Weaverize/loopback-connector-amqp.git"
+  },
   "private": true,
   "dependencies": {
     "amqplib": "^0.5.2",
