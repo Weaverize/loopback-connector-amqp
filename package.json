@@ -1,0 +1,30 @@
+{
+  "name": "loopback-connector-amqp",
+  "version": "1.0.0",
+  "description": "Loopback connector to AMQP",
+  "main": "lib/connector.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "UNLICENSED",
+  "author": {
+    "name": "Weaverize",
+    "email": "dev@weaverize.com",
+    "url": "http://pro.weaverize.com"
+  },
+  "private": true,
+  "dependencies": {
+    "amqplib": "^0.5.2",
+    "loopback-connector": "^4.4.0",
+    "uuid": "^3.2.1"
+  },
+  "eslintConfig": {
+    "rules": {
+        "indent": [2, "tab"],
+        "max-len": [
+          "error",
+          {"code" : 200}
+        ]
+    }
+  }
+}
