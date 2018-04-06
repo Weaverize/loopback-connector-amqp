@@ -6,6 +6,12 @@ This connector forwards the call on static, instance method and change-stream re
 Everything is done using native AMQP functions such as reply_to and correlation_id.
 See bellow the [topics](#Topics) used to transmit the requests and listen to model's change.
 
+## Install
+Just run npm
+```
+npm install --save loopback-connector-amqp
+```
+
 ## Settings
 Connectors settings through datasources.json:
 ```json
