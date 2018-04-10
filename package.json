@@ -1,39 +1,25 @@
 {
-  "name": "loopback-connector-amqp",
-  "version": "0.9.1",
-  "description": "Loopback connector to AMQP",
-  "main": "lib/connector.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "license": "UNLICENSED",
-  "author": {
-    "name": "Weaverize",
-    "email": "dev@weaverize.com",
-    "url": "http://pro.weaverize.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Weaverize/loopback-connector-amqp.git"
-  },
-  "dependencies": {
-    "amqplib": "^0.5.2",
-    "callback_sync": "^0.9.0",
-    "loopback-connector": "^4.4.0",
-    "uuid": "^3.2.1"
-  },
-  "eslintConfig": {
-    "rules": {
-      "indent": [
-        2,
-        "tab"
-      ],
-      "max-len": [
-        "error",
-        {
-          "code": 200
-        }
-      ]
-    }
-  }
+	"name": "loopback-connector-amqp",
+	"version": "0.9.1",
+	"description": "Loopback connector to AMQP",
+	"main": "lib/connector.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"license": "UNLICENSED",
+	"author": {
+		"name": "Weaverize",
+		"email": "dev@weaverize.com",
+		"url": "http://pro.weaverize.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Weaverize/loopback-connector-amqp.git"
+	},
+	"dependencies": {
+		"amqplib": "^0.5.2",
+		"callback_sync": "^0.9.0",
+		"loopback-connector": "^4.4.0",
+		"uuid": "^3.2.1"
+	}
 }
