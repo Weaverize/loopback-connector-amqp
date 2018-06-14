@@ -1,6 +1,6 @@
 {
 	"name": "loopback-connector-amqp",
-	"version": "0.11.0",
+	"version": "0.10.0",
 	"description": "Loopback connector to AMQP",
 	"main": "lib/connector.js",
 	"scripts": {
